@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "my font";
+    src: url(./assets/GaMaamli-Regular.ttf);
+}
+
+.unordered-list{
+    list-style-type: circle;
+    position: outside;
+}
+
+.unordered-list :nth-child(1){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.unordered-list :nth-child(2){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.unordered-list :nth-child(3){
+    font-family:cursive;
+}
+
+.ordered-list{
+    list-style-image: url(./assets/images-removebg-preview.png) ;
+    min-width: 20px;
+    min-height: 20px;
+    margin-left: 20%;
+    position: outside;
+    text-align: right;
+    width: 500px;
+    font-size: 24px;
+    font-family: cursive;
+    color: blueviolet;
+   
+}
+
+.ingredients{
+    font-size: 28px;
+    line-height: 60px;
+}
+
+header{
+    margin: 20px;
+    padding: 20px;
+    font-family: "my font";
+    font-size: 30px;
+    color: maroon;
+}
+
+.ordered-list :nth-child(1){
+    background-color: aqua;
+    text-align: center;
+   
+}
+
+.ordered-list :nth-child(3){
+    background-color: lawngreen;
+    text-align: center;
+    
+}
+
+.ordered-list :nth-child(2){
+    margin-bottom: 90px;
+}
+
+.ordered-list :nth-child(5){
+    background-color:pink;
+    text-align: center;
+    
+}
+
+.ordered-list :nth-child(4){
+    margin-bottom: 90px;
+}
+
+.recipe-details{
+    box-shadow: 10px 10px 5px lightblue;
+    padding: 30px;
+}
